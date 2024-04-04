@@ -48,7 +48,7 @@ describe('Character Component Content Structure', () => {
         render(<Character />);
         const items = screen.getAllByRole("listitem");
 
-        expect(items.length).toBe(4);
+        expect(items.length).toBe(5);
     });
 
     it("Renders a list item for the Character's DOB", () => {
