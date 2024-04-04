@@ -1,3 +1,4 @@
+import { it } from 'vitest';
 import CharacterGallery from '../components/CharacterGallery'
 import { render } from '@testing-library/react';
 
